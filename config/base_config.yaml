@@ -1,0 +1,18 @@
+local_db:
+  path: "data/processed/amazon_reviews.db"
+  table_name: "RAW_REVIEWS"
+
+project:
+  seed: 42
+  data_path: "data/raw/Cell_Phones_and_Accessories_5.json"
+
+ingestion_params:
+  mandatory_keys:
+    - "reviewerID"
+    - "asin"
+    - "reviewText"
+    - "overall"
+
+sampling:
+  enabled: true
+  rate: 0.01  # This is 1%

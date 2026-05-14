@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+mlflow-skinny
+pandas
+scikit-learn
+python-multipart
+torch --index-url https://download.pytorch.org/whl/cpu

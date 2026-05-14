@@ -1,0 +1,15 @@
+name: 'amazon_recommender'
+version: '1.0.0'
+config-version: 2
+
+profile: 'amazon_profile'
+
+model-paths: ["models"]
+
+models:
+  amazon_recommender:
+    # Adding the '+' prefix removes those deprecation warnings
+    staging:
+      +materialized: view
+    warehouse:
+      +materialized: table

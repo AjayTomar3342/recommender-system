@@ -1,0 +1,12 @@
+amazon_profile:
+  target: dev
+  outputs:
+    dev:
+      type: sqlite
+      threads: 1
+      database: 'main'
+      schema: 'main'
+      # Correct the 's' in PycharmProjects
+      schema_directory: '/Users/ajaytomar/PycharmProjects/recommender-system/data/processed'
+      schemas_and_paths:
+        main: '/Users/ajaytomar/PycharmProjects/recommender-system/data/processed/amazon_reviews.db'

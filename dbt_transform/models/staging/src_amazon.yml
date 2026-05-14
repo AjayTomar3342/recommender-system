@@ -1,0 +1,6 @@
+version: 2
+
+sources:
+  - name: main  # Change this from 'external_data' to 'main'
+    tables:
+      - name: RAW_REVIEWS

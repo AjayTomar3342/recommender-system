@@ -1,0 +1,23 @@
+# Environments
+.venv/
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Data & Databases (CRITICAL)
+data/
+mlflow.db
+mlruns/
+logs/
+
+# dbt & Airflow logs
+target/
+dbt_packages/
+logs/
+airflow/logs/
+airflow/airflow.db
+
+# OS files
+.DS_Store
